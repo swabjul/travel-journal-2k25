@@ -1,5 +1,13 @@
+import Entry from "./Entry"
+
 export default function Main() {
   return (
-    <h1>Main Area</h1>
+    <div className="journal-entry">
+      <Entry />
+      <Entry />
+      <Entry />
+      <Entry />
+    </div>
+    
   )
 }
