@@ -36,13 +36,12 @@ header {
 }
 
 .journal-entry {
-  max-width: 700px;
+  max-width: 550px;
   margin: 45px auto;
 }
 
 .journal-entry__list {
   display: flex;
-  gap: 19px;
   align-items: center;
   padding-bottom: 18px;
   margin-bottom: 18px;
@@ -54,16 +53,21 @@ header {
 }
 
 .journal-entry__img-area {
-  width: 30%;
+  width: 35%;
+  height: 230px;
+  overflow: hidden;
+  border-radius: 5px;
 }
 
 .journal-entry__img-area img {
   width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
 .journal-entry__txt-area {
   flex: 1;
+  padding: 19px;
 }
 
 .map-info {
@@ -113,4 +117,5 @@ header {
   font-size: calc(10.24rem /16);
   color: #2B283A;
   font-weight: 400;
+  text-align: justify;
 }
