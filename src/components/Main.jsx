@@ -7,12 +7,7 @@ export default function Main() {
     return (
       <Entry
         key={entry.id}
-        img={entry.img}
-        title={entry.title}
-        country={entry.country}
-        googleMapsLink={entry.googleMapsLink}
-        dates={entry.dates}
-        description={entry.text}
+        {...entry}
         />
     )
   })
